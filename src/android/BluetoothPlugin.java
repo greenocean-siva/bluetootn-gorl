@@ -14,11 +14,11 @@
    limitations under the License.
 */
 
-package org.apache.cordova.plugin;
+package org.apache.cordova.bluetooth;
 
 import org.apache.cordova.CordovaInterface;
-import org.apache.cordova.Plugin;
-import org.apache.cordova.PluginResult;
+import org.apache.cordova.bluetooth;
+import org.apache.cordova.bluetooth;
 import org.json.JSONArray;
 
 import java.io.BufferedInputStream;
@@ -61,7 +61,7 @@ import android.os.Message;
 import android.os.Parcelable;
 import android.util.Log;
 
-public class BluetoothPlugin extends Plugin {
+public class BluetoothPlugin extends bluetooth {
 	private static final String ACTION_ENABLE = "enable";
 	private static final String ACTION_DISABLE = "disable";
 	private static final String ACTION_DISCOVERDEVICES = "discoverDevices";
