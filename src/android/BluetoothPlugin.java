@@ -16,9 +16,9 @@
 
 package org.apache.cordova.plugin;
 
-import org.apache.cordova.api.CordovaInterface;
-import org.apache.cordova.api.Plugin;
-import org.apache.cordova.api.PluginResult;
+import org.apache.cordova.CordovaInterface;
+import org.apache.cordova.Plugin;
+import org.apache.cordova.PluginResult;
 import org.json.JSONArray;
 
 import java.io.BufferedInputStream;
