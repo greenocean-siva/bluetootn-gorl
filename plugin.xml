@@ -20,7 +20,7 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="org.apache.cordova.bluetooth"
+    id="org.apache.cordova.plugin"
     version="0.3.8">
 
     <name>bluetooth</name>
@@ -42,11 +42,11 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="bluetooth">
-                <param name="android-package" value="org.apache.cordova.bluetooth.BluetoothPlugin"/>
+                <param name="android-package" value="org.apache.cordova.plugin.BluetoothPlugin"/>
             </feature>
         </config-file>
 
-        <source-file src="src/android/BluetoothPlugin.java" target-dir="src/org/apache/cordova/bluetooth" />
+        <source-file src="src/android/BluetoothPlugin.java" target-dir="src/org/apache/cordova/plugin" />
 
         <config-file target="AndroidManifest.xml" parent="/manifest">
                 <uses-permission android:name="android.permission.BLUETOOTH" />
